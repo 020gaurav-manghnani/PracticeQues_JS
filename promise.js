@@ -12,7 +12,7 @@ const p = new Promise((resolve, reject)=>{
     })
     rejectBtn.addEventListener('click' , ()=>{
 
-         // by giving "reject" keyword it will resolve the promise and will directly go to "catch"
+         // by giving "reject" keyword it will reeject the promise and will directly go to "catch"
         reject("promise rejected");
     })
 })
