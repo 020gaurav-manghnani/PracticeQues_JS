@@ -1,14 +1,7 @@
-let string = "gaurav is great"
-
-function reverseString(x){
-
-    let newString = '';
-
-    for(let i=x.length-1; i>=0 ;i--){
-        newString = newString + x[i];
-    }
-    return newString
+function reverseString (str){
+    
+     console.log(str.split('').reverse().join(''))
+     
 }
 
-let result = reverseString(string);
-console.log(result);
+reverseString("gaurav");
