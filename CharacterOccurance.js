@@ -3,7 +3,7 @@ function occurance(str){
     
     let countChar = {}
     str.split('').forEach((x)=>{
-        debugger
+        
         
         countChar[x] = (countChar[x]||0)+1
     })
